@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales (el que creaste a mano y los de sistema)
+venv/
+venv_test/
+venv_matrix/
+env/
+.env/
+
+# Poetry (archivos de entorno local si los hubiera)
+.venv/
+dist/
+
+# Archivos generados por tu programa (el análisis de la Matrix)
+matrix_analysis.png
+
+# Archivos de sistema (Mac/Windows)
+.DS_Store
+Thumbs.db
+
+# Flake8
+.flake8
+
+poetry.lock

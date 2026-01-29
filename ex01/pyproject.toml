@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ex01"
+version = "0.1.0"
+description = "Matrix analysis"
+authors = ["sergio <serromer@student.42madrid.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "*"
+requests = "*"
+matplotlib = "*"
+numpy = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
